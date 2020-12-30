@@ -173,7 +173,7 @@ router.post('/successBuy', auth, (req, res) => {
 
     req.body.cartDetail.forEach((item) => {
         history.push({
-            dateOfPurchase: Date.now(),
+            dateOfPurchase: Date.now().toString("yyyy'-'MM'-'dd"),
             name: item.title,
             id: item._id,
             price: item.price,

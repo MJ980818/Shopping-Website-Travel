@@ -8,7 +8,11 @@ function Footer() {
             flexDirection: 'column', alignItems: 'center',
             justifyContent: 'center', fontSize:'1rem'
         }}>
-           <p> Happy Coding  <Icon type="smile" /></p>
+           <p style= {{textAlign:'center'}}> Developer info : limminjeong98@naver.com
+               {/* <Icon type="smile" /> */}
+               <br />
+           Download source : https://github.com/MJ980818/Shopping-Website-Travel
+             </p>
         </div>
     )
 }
